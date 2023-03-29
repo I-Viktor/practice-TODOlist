@@ -6,8 +6,6 @@ const tasks = [
 ];
 
 function addNewTask() {
-<<<<<<< HEAD
-=======
     const newInputTask = document.getElementById('new-task');
     console.log('newInputTask', newInputTask.value);
 
@@ -33,7 +31,6 @@ function addNewTask() {
     ul.append(li)
 
 
->>>>>>> 7da952afb9a4a5f6fb095be34854d0b028e6d1bd
 
 }
 
