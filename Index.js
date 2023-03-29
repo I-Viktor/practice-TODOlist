@@ -13,7 +13,13 @@ function getAllTasks(allTasks) {
     const allElements = allTasks.map((arrTask) => {
         const li = document.createElement('li');
         li.classList.add('list-group-item');
-        li.append(arrTask.task)
+       
+
+        const button = document.createElement('button');
+        button.classList.add('btn', 'btn-success');
+        button.innerHTML = 'DELETE';
+
+        li.append(button, arrTask.task);
         console.log('li', li)
         return li
 
