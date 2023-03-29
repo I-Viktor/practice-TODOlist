@@ -5,7 +5,7 @@ const tasks = [
     { task: 'breakfast' }
 ];
 
-function addNewTask{
+function addNewTask() {
 
 }
 
