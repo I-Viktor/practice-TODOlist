@@ -10,15 +10,15 @@ const tasks = [
 function getAllTasks(allTasks) {
     const ul = document.querySelector('.list-group');
 
-    allTasks.map(() => {
+    const allElements = allTasks.map((arrTask) => {
         const li = document.createElement('li');
         li.classList.add('list-group-item');
-        li.append(task)
-        // console.log('li', li)
+        li.append(arrTask.task)
+        console.log('li', li)
         return li
 
     })
-
+    return ul.append(...allElements)
 
 
 
