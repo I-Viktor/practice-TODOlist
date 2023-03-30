@@ -74,4 +74,8 @@ getAllTasks(tasks)
 
 
 
-console.log('test')
+window.addEventListener('load', windowLoad);
+
+function windowLoad() {
+    document.documentElement.classList.add('loaded');
+}
