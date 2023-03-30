@@ -1,45 +1,61 @@
-*,
-*::before,
-*::after {
-	padding: 0;
-	margin: 0;
-	border: 0;
-	box-sizing: border-box;
+
+/* Header */
+
+.conteiner {
 }
-a {
-	text-decoration: none;
-	color: inherit;
+.btn {
 }
-ul,
-ol,
-li {
-	list-style: none;
+.btn-success {
 }
-img {
-	vertical-align: top;
+.btn-inpun {
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-weight: inherit;
-	font-size: inherit;
+.list-group {
 }
-html,
-body {
-	height: 100%;
-	line-height: 1;
+
+
+/* Main */
+
+.wrapper {
 }
-button,
-input {
-	font-weight: inherit;
-	font-size: inherit;
-	color: inherit;
-	font-family: inherit;
+.page {
 }
-button {
-	cursor: pointer;
-	background-color: inherit;
+.page__main {
 }
+.main-screen {
+}
+.main-screen__trees {
+}
+.main-screen__trees_6 {
+}
+.main-screen__trees_5 {
+}
+.main-screen__trees_4 {
+}
+.main-screen__trees_3 {
+}
+.main-screen__trees_2 {
+}
+.main-screen__trees_1 {
+}
+.main-screen__birds {
+}
+.main-screen__birds_1 {
+}
+.main-screen__birds_2 {
+}
+.main-screen_mountains {
+}
+.page__content {
+}
+.content {
+}
+.content__container {
+}
+.content__title {
+}
+.content__body {
+}
+
+
+
+
