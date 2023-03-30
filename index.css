@@ -46,6 +46,7 @@ body {
 	top: 0;
 	left: 0;
 	z-index: 3;
+	will-change: transform;
 }
 .main-screen__trees_6 span{
 			background: url("./img/trees-06.svg") bottom / auto 100% repeat-x;
@@ -181,7 +182,7 @@ top: 10vh;
 	transform: translate(-200%, 0px);
 }
 .main-screen__birds_2 span {
-	transform: translate(-200%, 0px);
+	transform: translate(200%, 0px);
 }
 
 .loaded .main-screen__birds_1 span,
