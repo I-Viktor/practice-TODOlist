@@ -1,3 +1,8 @@
+//"use strict"
+
+
+
+
 const tasks = [
     { task: 'go work' },
     { task: 'shoping' },
@@ -83,7 +88,7 @@ function windowLoad() {
     window.addEventListener('scroll', createPosition);
 
     function createPosition() {
-        const contentElement = document.querySelector(".content__container");
+        const contentElement = document.querySelector('.content__container');
         const windowHeight = window.innerHeight;
 
         const finalPos = scrollY / (contentElement.offsetTop - windowHeight) * 60;
@@ -92,9 +97,9 @@ function windowLoad() {
     }
 
     function forescAnimation(finalPos) {
-        const mountains = document.querySelector(".main-screen__mountains");
-        const trees = document.querySelectorAll(".main-screen__trees");
-        const birds = document.querySelectorAll(".main-screen__birds");
+        const mountains = document.querySelector('.main-screen_mountains');
+        const trees = document.querySelectorAll('.main-screen__trees');
+        const birds = document.querySelectorAll('.main-screen__birds');
 
         const mountainsTranslate = 170 / 100 * finalPos;
         const mountainsScale = 1 + 2 / 100 * finalPos;
