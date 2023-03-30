@@ -1,3 +1,4 @@
+@import url("reset.css");
 
 /* Header */
 
@@ -14,47 +15,126 @@
 
 
 /* Main */
+body {
+	font-family:  Arial, Helvetica, sans-serif;
+	background-color: #f1f1ed;
+	font-size: 1.25rem;
+}
 
 .wrapper {
+	min-height: 100%;
+	position: relative;
+	overflow: clip;
 }
+
 .page {
 }
 .page__main {
 }
 .main-screen {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
 }
-.main-screen__trees {
+.main-screen__trees,
+.main-screen__trees span{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 3;
 }
-.main-screen__trees_6 {
+.main-screen__trees_6 span{
+			background: url("./img/trees-06.svg") bottom / auto 100% repeat-x;
+
 }
-.main-screen__trees_5 {
+.main-screen__trees_5 span{
+		background: url("./img/trees-05.svg") bottom / auto 100% repeat-x;
+
 }
-.main-screen__trees_4 {
+.main-screen__trees_4 span{
+		background: url("./img/trees-04.svg") bottom / auto 90% repeat-x;
+
 }
-.main-screen__trees_3 {
+.main-screen__trees_3 span{
+		background: url("./img/trees-03.svg") bottom / auto 70% repeat-x;
+
 }
-.main-screen__trees_2 {
+.main-screen__trees_2 span{
+	background: url("./img/trees-02.svg") bottom / auto 70% repeat-x;
 }
-.main-screen__trees_1 {
+.main-screen__trees_1 span{
+	background: url("./img/trees-01.svg") bottom / auto 60% repeat-x; 
 }
 .main-screen__birds {
+	position: absolute;
+	z-index: 2;
+}
+
+.main-screen__birds span {
+	display: block;
 }
 .main-screen__birds_1 {
+width: 45vh;
+max-width: 40%;
+left: 10vw;
+top: 10vh;
 }
+
+.main-screen__birds_1 span {
+	background: url("./img/birds-01.svg") 0 0 / 100% no-repeat;
+	padding-bottom: 76%;
+}
+
 .main-screen__birds_2 {
+	width: 30vh;
+	max-width: 25%;
+	right: 10vw;
+	top: 10vh;
 }
-.main-screen_mountains {
+
+.main-screen__birds_2 span{
+	background: url("./img/birds-02.svg") 0 0 / 100% no-repeat;
+	padding-bottom: 55%;
 }
+
+.main-screen_mountains,
+.main-screen_mountains span {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+
+}
+
+.main-screen_mountains span{
+	background: url("./img/mountains.svg") center / auto 80% repeat-x;
+	
+}
+
 .page__content {
 }
 .content {
+	padding-top: 200vh;
 }
 .content__container {
+	margin: 0 auto;
+	max-width: 75rem;
+	padding: 3.125rem 0.9375rem 5.125rem 0.9375rem;
 }
 .content__title {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2.5rem;
+	margin-bottom: 1.25rem;
 }
 .content__body {
 }
+
 
 
 
