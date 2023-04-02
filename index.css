@@ -3,6 +3,8 @@
 /* Header */
 
 .conteiner {
+	position: absolute;
+	z-index: 6;
 }
 .btn {
 }
@@ -124,6 +126,10 @@ top: 10vh;
 	padding-top: 200vh;
 }
 .content__container {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
 	margin: 0 auto;
 	max-width: 75rem;
 	padding: 3.125rem 0.9375rem 5.125rem 0.9375rem;
