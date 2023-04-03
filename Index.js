@@ -4,10 +4,10 @@
 
 
 const tasks = [
+    { task: 'learn to code on JS' },
+    { task: 'learn english' },
     { task: 'go work' },
-    { task: 'shoping' },
-    { task: 'go to the gym' },
-    { task: 'breakfast' }
+    { task: 'save the world)' }
 ];
 
 function addNewTask() {
@@ -25,7 +25,7 @@ function addNewTask() {
 
     const button = document.createElement('button');
     button.classList.add('btn', 'btn-success');
-    button.innerHTML = 'DELETE';
+    button.innerHTML = 'Done';
     button.onclick = () => {
         li.remove();
     }
@@ -61,7 +61,7 @@ function getAllTasks(allTasks) {
 
         const button = document.createElement('button');
         button.classList.add('btn', 'btn-success');
-        button.innerHTML = 'DELETE';
+        button.innerHTML = 'Done';
         button.onclick = () => {
             li.remove();
         }
