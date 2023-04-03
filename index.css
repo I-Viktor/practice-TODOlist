@@ -2,7 +2,7 @@
 
 /* Header */
 
-.conteiner {
+.content__list {
 	position: absolute;
 	z-index: 6;
 }
@@ -15,6 +15,25 @@
 .list-group {
 }
 
+
+.content {
+	padding-top: 200vh;
+}
+.content__container {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+	margin: 0 auto;
+	max-width: 75rem;
+	padding: 3.125rem 0.9375rem 5.125rem 0.9375rem;
+}
+.content__title {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2.5rem;
+	margin-bottom: 1.25rem;
+}
 
 /* Main */
 body {
@@ -120,28 +139,9 @@ top: 10vh;
 	
 }
 
-.page__content {
-}
-.content {
-	padding-top: 200vh;
-}
-.content__container {
-	display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-	margin: 0 auto;
-	max-width: 75rem;
-	padding: 3.125rem 0.9375rem 5.125rem 0.9375rem;
-}
-.content__title {
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 2.5rem;
-	margin-bottom: 1.25rem;
-}
-.content__body {
-}
+
+
+
 
 
 /* Animation*/
