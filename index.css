@@ -15,7 +15,7 @@
 
 @media (min-height: 1024px) {
 	.content {
-		padding-bottom: 10vh;
+		padding-bottom: 40vh;
 	padding-top: 100vh
 	}
 }
@@ -37,6 +37,7 @@
 }
 ::placeholder {
 	font-family: monospace;
+	padding: 0 10vw;
 	
 }
 .btn-success {
