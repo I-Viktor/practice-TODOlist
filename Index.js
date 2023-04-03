@@ -122,5 +122,21 @@ function windowLoad() {
 
 
         });
+
+        const birdsTranslate = 190 / 100 * finalPos;
+        const birdsScale = 1 + 2 / 100 * finalPos;
+
+        birds[0].style.cssText = `
+            transform:
+            translate3d(-${birdsTranslate}%,0,0)
+            scale(${birdsScale});
+            `;
+
+        birds[1].style.cssText = `
+            transform:
+            translate3d(${birdsTranslate}%,0,0)
+            scale(${birdsScale});
+            `;
+
     }
 }
