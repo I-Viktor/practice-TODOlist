@@ -1,5 +1,17 @@
 @import url("reset.css");
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@media (min-width: 768px) {
+	.content__container {
+		padding: 3.125rem 0.9375rem 50.125rem 0.9375rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	.content {
+		padding-bottom: 10vh;
+    padding-top: 100vh
+	}
+}
 /* Header */
 
 .content__list {
@@ -42,6 +54,7 @@
 	max-width: 75rem;
 	padding: 3.125rem 0.9375rem 30.125rem 0.9375rem;
 }
+
 .content__title {
 	text-transform: uppercase;
 	font-weight: 700;
