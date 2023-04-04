@@ -111,26 +111,26 @@ body {
 	will-change: transform;
 }
 .main-screen__trees_6 span{
-			background: url("./img/trees-06.svg") bottom / auto 100% repeat-x;
+			background: url("../img/trees-01.svg") bottom / auto 100% repeat-x;
 
 }
 .main-screen__trees_5 span{
-		background: url("./img/trees-05.svg") bottom / auto 100% repeat-x;
+		background: url("../img/trees-05.svg") bottom / auto 100% repeat-x;
 
 }
 .main-screen__trees_4 span{
-		background: url("./img/trees-04.svg") bottom / auto 90% repeat-x;
+		background: url("../img/trees-04.svg") bottom / auto 90% repeat-x;
 
 }
 .main-screen__trees_3 span{
-		background: url("./img/trees-03.svg") bottom / auto 70% repeat-x;
+		background: url("../img/trees-03.svg") bottom / auto 70% repeat-x;
 
 }
 .main-screen__trees_2 span{
-	background: url("./img/trees-02.svg") bottom / auto 70% repeat-x;
+	background: url("../img/trees-02.svg") bottom / auto 70% repeat-x;
 }
 .main-screen__trees_1 span{
-	background: url("./img/trees-01.svg") bottom / auto 60% repeat-x; 
+	background: url("../img/trees-01.svg") bottom / auto 60% repeat-x; 
 }
 .main-screen__birds {
 	position: absolute;
@@ -148,7 +148,7 @@ top: 10vh;
 }
 
 .main-screen__birds_1 span {
-	background: url("./img/birds-01.svg") 0 0 / 100% no-repeat;
+	background: url("../img/birds-01.svg") 0 0 / 100% no-repeat;
 	padding-bottom: 76%;
 }
 
@@ -161,7 +161,7 @@ top: 10vh;
 }
 
 .main-screen__birds_2 span{
-	background: url("./img/birds-02.svg") 0 0 / 100% no-repeat;
+	background: url("../img/birds-02.svg") 0 0 / 100% no-repeat;
 	padding-bottom: 55%;
 }
 
@@ -176,7 +176,7 @@ top: 10vh;
 }
 
 .main-screen_mountains span {
-	background: url("./img/mountains.svg") center / auto 80% repeat-x;
+	background: url("../img/mountains.svg") center / auto 80% repeat-x;
 	
 }
 
