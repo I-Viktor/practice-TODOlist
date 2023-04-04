@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.0-alpha2"
+  },
+  "scripts": {
+  "scripts.homepage": "https://I-Viktor.github.io/practice-TODOlist"
   }
 }
